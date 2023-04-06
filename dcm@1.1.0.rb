@@ -1,6 +1,6 @@
 class DcmAT11 < Formula
   desc "DCM statically analyzes your Dart code to quickly find quality and consistency problems."
-  homepage "https://dcm.dev"
+  homepage "https://dcm.dev/"
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/CQLabs/homebrew-dcm/releases/download/1.1.0/dcm-macos-x64-release.zip"
