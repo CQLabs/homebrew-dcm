@@ -1,4 +1,4 @@
-class DcmAT13 < Formula
+class DcmAT131 < Formula
   desc "DCM statically analyzes your Dart code to quickly find quality and consistency problems."
   homepage "https://dcm.dev/"
 
