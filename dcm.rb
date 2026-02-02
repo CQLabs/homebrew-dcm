@@ -3,17 +3,17 @@ class Dcm < Formula
   homepage "https://dcm.dev/"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/CQLabs/homebrew-dcm/releases/download/1.35.0/dcm-macos-x64-release.zip"
-    sha256 "37ba2b2978e722cc3bd9d79f6ddf653364264dfeb9ab9a84816a281cf4facf60"
+    url "https://github.com/CQLabs/homebrew-dcm/releases/download/1.35.1/dcm-macos-x64-release.zip"
+    sha256 "9dfa65a776960d5d583dcca9e003cfb4a35d690850785d274e0e06c776ae1777"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/CQLabs/homebrew-dcm/releases/download/1.35.0/dcm-macos-arm-release.zip"
-    sha256 "03d0c24186990f6b1e40661fcc8e7b7d3f3320ee8cb1a7e6875cd840011104a7"
+    url "https://github.com/CQLabs/homebrew-dcm/releases/download/1.35.1/dcm-macos-arm-release.zip"
+    sha256 "b6f04a6f68828ece9be3837a6a8eb1290cd8ca986a97f284f4af6de7eb02993e"
   elsif OS.linux? && Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-    url "https://github.com/CQLabs/homebrew-dcm/releases/download/1.35.0/dcm-linux-x64-release.zip"
-    sha256 "5e00e1ddb41aaa0f3af12587f71ebef788e9877b9692b2650b39cc3e3bceeee4"
+    url "https://github.com/CQLabs/homebrew-dcm/releases/download/1.35.1/dcm-linux-x64-release.zip"
+    sha256 "27667459466861bc257baad381715e227775b5c4996e15132120f3b11cef0c55"
   elsif OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/CQLabs/homebrew-dcm/releases/download/1.35.0/dcm-linux-arm-release.zip"
-    sha256 "78ce9347766ace4695a842b62237fd9e1b07019295f0278807f268c621b2a3c7"
+    url "https://github.com/CQLabs/homebrew-dcm/releases/download/1.35.1/dcm-linux-arm-release.zip"
+    sha256 "71adab6e3b5d2e183657511e8547ca02229c1829ce82676cff43ae577644388c"
   end
 
   def install
